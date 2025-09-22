@@ -40,11 +40,10 @@ This repository contains the details of our Smart India Hackathon project, inclu
 
 ## 🛠️ Tech Stack
 
-- **Frontend:** HTML, CSS, JavaScript  
-- **Others:** 
+- **Frontend:** HTML, CSS, JavaScript
 - **Backend:**
 - **Database:** MySQL
-- **others:** python, c++ 
+- **Others:** python, c++ 
 
 ---
 
