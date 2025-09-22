@@ -1,4 +1,4 @@
-# Smart India Hackathon (SIH) Project - PS Chosen
+# Smart India Hackathon (SIH) Project - PS 25028 Chosen
 
 This repository contains the details of our Smart India Hackathon project, including team details, project links, completed tasks, tech stack, and setup instructions.
 
@@ -23,7 +23,7 @@ This repository contains the details of our Smart India Hackathon project, inclu
 
 - 📑 **SIH Presentation:** [Final SIH Presentation](https://github.com/jain71314-spec/SIH-/blob/main/Smart-India-Hackathon-202577.pptx)  
 - 🎥 **Video Demonstration:** [Watch Video](https://youtu.be/7tUib_it1Cw?si=ggfmP8kBoICdvDis)  
-- 🌐 **Live Deployment:** [View Deployment]()  
+- 🌐 **Live Deployment:** [View Deployment](https://sih-silk-two.vercel.app/)  
 - 💻 **Source Code:** [GitHub Repository](https://github.com/jain71314-spec/SIH-)  
 - 📚 **Additional Resources:** [Other Relevant Links](ANY_OTHER_RELEVANT_LINKS)  
 
@@ -61,4 +61,4 @@ This repository contains the details of our Smart India Hackathon project, inclu
 Clone the project: 
 
 ```bash
-git clone [https://github.com/jain71314-spec/SIH-/]
+git clone[https://github.com/jain71314-spec/SIH-/]
