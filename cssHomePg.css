@@ -25,7 +25,7 @@
 }
 
 .logo{
-    background-image: url("ab.jpeg");
+    background-image: url("ab.jpg");
     background-size: contain;
     background-repeat: repeat;
     height: 50px;
@@ -284,4 +284,5 @@ a{
 
 .X{
     color: #007185
+
 }
