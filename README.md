@@ -43,7 +43,7 @@ This repository contains the details of our Smart India Hackathon project, inclu
 - **Frontend:** HTML, CSS, JavaScript  
 - **Others:** APIs, Cloud Deployment, Authentication, etc.
 - **Backend:**
-- **Database: ** MySQL
+- **Database:** MySQL
 - **others:** python, c++ 
 
 ---
