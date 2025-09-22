@@ -61,4 +61,4 @@ This repository contains the details of our Smart India Hackathon project, inclu
 Clone the project: 
 
 ```bash
-git clone https://github.com/jain71314-spec/SIH-/
+git clone [https://github.com/jain71314-spec/SIH-/]
