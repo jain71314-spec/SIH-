@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Page</title>
+</head>
+<body>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #5a5a5a;
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .subject-card {
+            background-color: #e9f5ff;
+            border: 1px solid #cce5ff;
+            border-left: 5px solid #007bff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+        }
+        .subject-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .subject-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+        .attendance-stats {
+            text-align: right;
+        }
+        .attendance-stats span {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .present-count {
+            color: #28a745;
+        }
+        .total-count {
+            color: #007bff;
+        }
+        .attendance-bar-container {
+            width: 100%;
+            background-color: #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        .attendance-bar {
+            height: 25px;
+            background-color: #28a745;
+            text-align: center;
+            color: white;
+            line-height: 25px;
+            font-weight: bold;
+            transition: width 0.5s ease-in-out;
+        }
+        .low-attendance {
+            background-color: #dc3545;
+        }
+
+        .med-attendance{
+            background-color: #ffcc00;
+        }
+
+    </style>
+
+    <div class="container">
+        <h1>📊 Your Attendance</h1>
+        
+        <div class="subject-card">
+            <div class="subject-header">
+                <span class="subject-title">Quantum Mechanics</span>
+                <div class="attendance-stats">
+                    <span class="present-count">25</span> / <span class="total-count">30</span>
+                </div>
+            </div>
+            <div class="attendance-bar-container">
+                <div class="attendance-bar" style="width: 83.33%;">83.33%</div>
+            </div>
+        </div>
+
+        <div class="subject-card">
+            <div class="subject-header">
+                <span class="subject-title">Computer Programming</span>
+                <div class="attendance-stats">
+                    <span class="present-count">20</span> / <span class="total-count">30</span>
+                </div>
+            </div>
+            <div class="attendance-bar-container">
+                <div class="attendance-bar med-attendance" style="width: 66.67%;">66.67%</div>
+            </div>
+        </div>
+
+        <div class="subject-card">
+            <div class="subject-header">
+                <span class="subject-title">Mathematics-I</span>
+                <div class="attendance-stats">
+                    <span class="present-count">10</span> / <span class="total-count">30</span>
+                </div>
+            </div>
+            <div class="attendance-bar-container">
+                <div class="attendance-bar low-attendance" style="width: 33.33%;">33.33%</div>
+            </div>
+        </div>
+
+        <div class="subject-card">
+            <div class="subject-header">
+                <span class="subject-title">Electronics Engineering</span>
+                <div class="attendance-stats">
+                    <span class="present-count">22</span> / <span class="total-count">30</span>
+                </div>
+            </div>
+            <div class="attendance-bar-container">
+                <div class="attendance-bar med-attendance" style="width: 72%;">72%</div>
+            </div>
+        </div>
+
+        <div class="subject-card">
+            <div class="subject-header">
+                <span class="subject-title">Electrical Engineering</span>
+                <div class="attendance-stats">
+                    <span class="present-count">28</span> / <span class="total-count">30</span>
+                </div>
+            </div>
+            <div class="attendance-bar-container">
+                <div class="attendance-bar" style="width: 93.33%;">93.33%</div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
