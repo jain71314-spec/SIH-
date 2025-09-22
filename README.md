@@ -7,10 +7,10 @@ This repository contains the details of our Smart India Hackathon project, inclu
 ## 👥 Team Details
 
 - **Team Name:** BugOFF 
-- **Team Leader:** @jain71314
+- **Team Leader:** [@jain71314-spec](https://github.com/jain71314-spec) 
 
 **Team Members:**
-- MEMBER_1 - 2025UCS1610 - [@jain71314](https://github.com/jain71314) 
+- MEMBER_1 - 2025UCS1610 - [@jain71314-spec](https://github.com/jain71314-spec) 
 - MEMBER_2 - 2025UCA1808 - [@7sunray](https://github.com/7sunray)
 - MEMBER_3 - 2025UIT3077 - [@rookie-coder19](https://github.com/rookie-coder19)
 - MEMBER_4 - 2025UCA1834 - [@devajdhawan30-sketch](https://github.com/@devajdhawan30-sketch)
@@ -41,7 +41,7 @@ This repository contains the details of our Smart India Hackathon project, inclu
 ## 🛠️ Tech Stack
 
 - **Frontend:** HTML, CSS, JavaScript  
-- **Others:** APIs, Cloud Deployment, Authentication, etc.
+- **Others:** 
 - **Backend:**
 - **Database:** MySQL
 - **others:** python, c++ 
@@ -62,4 +62,4 @@ This repository contains the details of our Smart India Hackathon project, inclu
 Clone the project: 
 
 ```bash
-git clone GITHUB_LINK
+git clone https://github.com/jain71314-spec/SIH-/
